@@ -6,6 +6,7 @@ client/README.md
 client/public/
 express/node_modules/
 express/storage/
+express/bruteforce.js
 express/usersDB.json
 package.json
 
