@@ -1,0 +1,111 @@
+[
+  {
+    "id": "5e796132-5c71-4d89-8890-acf675c8d0e7",
+    "name": "root-kumar2021astro@gmail.com",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": null,
+    "files": [
+      "1040c11b-2d9c-43db-94a4-d5f2259b3466",
+      "4312614a-c5c8-4ed4-ab2d-a069616fb72b",
+      "4b8f4126-73aa-44cf-a0a1-fa6a38d24d5d",
+      "1041bd5c-ef59-457b-9f94-816d9b4fcb4e"
+    ],
+    "directories": [
+      "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
+      "8dac4f4f-d0b7-4d71-9b16-5b90ad4ded7c"
+    ]
+  },
+  {
+    "id": "5f1b7089-5b70-494e-a206-b95cd23b7ab3",
+    "name": "root-rajmaurya66115@gmail.com",
+    "userId": "88867795-3653-42b1-8698-1229b989a734",
+    "parentDirId": null,
+    "files": [
+      "f096effd-2680-464a-bf23-ea3c261b9014"
+    ],
+    "directories": [
+      "41d88d91-2a90-4907-b724-dbe6a9df0354"
+    ]
+  },
+  {
+    "id": "41d88d91-2a90-4907-b724-dbe6a9df0354",
+    "name": "cdcd",
+    "userId": "88867795-3653-42b1-8698-1229b989a734",
+    "parentDirId": "5f1b7089-5b70-494e-a206-b95cd23b7ab3",
+    "files": [
+      "1be48988-4da6-4274-96e1-365756518376"
+    ],
+    "directories": [
+      "481079f5-a216-40d4-b896-5c3f1844720e"
+    ]
+  },
+  {
+    "id": "481079f5-a216-40d4-b896-5c3f1844720e",
+    "name": "bitbt fo",
+    "userId": "88867795-3653-42b1-8698-1229b989a734",
+    "parentDirId": "41d88d91-2a90-4907-b724-dbe6a9df0354",
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
+    "name": "edge ",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7",
+    "files": [],
+    "directories": [
+      "9f30bf5e-b9c7-48b4-9e21-fcd23d59989e",
+      "2b7c636e-692a-4ab5-b6a1-5657f69a15f3",
+      "c1dc4253-781e-4074-91f6-4111ecb53171"
+    ]
+  },
+  {
+    "id": "9f30bf5e-b9c7-48b4-9e21-fcd23d59989e",
+    "name": "new to delete",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
+    "files": [
+      "4d0de036-4433-4f9c-80fd-04fb6e517658",
+      "e9dacd4c-c783-4375-ba22-e58f7fcc2ff5"
+    ],
+    "directories": [
+      "2398bc6a-0e71-4613-8ab9-cec1ac0f5d85"
+    ]
+  },
+  {
+    "id": "8dac4f4f-d0b7-4d71-9b16-5b90ad4ded7c",
+    "name": "new toooo",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7",
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "2398bc6a-0e71-4613-8ab9-cec1ac0f5d85",
+    "name": "New Folder",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "9f30bf5e-b9c7-48b4-9e21-fcd23d59989e",
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "61b14f0f-3a71-4f96-ad41-630bf744c009",
+    "name": "root-bhyy@gmail.com",
+    "userId": "85aba490-2746-4c01-8386-d01fee03ddf7",
+    "parentDirId": null,
+    "files": [
+      "15a692ad-2c43-414a-9b8a-669752b65dde"
+    ],
+    "directories": [
+      "cd191505-bcbf-4258-b3fb-0359efedd449"
+    ]
+  },
+  {
+    "id": "cd191505-bcbf-4258-b3fb-0359efedd449",
+    "name": "The worst things ever",
+    "userId": "85aba490-2746-4c01-8386-d01fee03ddf7",
+    "parentDirId": "61b14f0f-3a71-4f96-ad41-630bf744c009",
+    "files": [],
+    "directories": []
+  }
+]
