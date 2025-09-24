@@ -3,6 +3,7 @@ import DirectoryView from "./DirectoryView";
 import Register from "./Register";
 import "./App.css";
 import Login from "./Login";
+import DecryptPage from "./components/DecryptPage";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,12 @@ const router = createBrowserRouter([
     path: "/directory/:dirId",
     element: <DirectoryView />,
   },
+  {
+    path: "/sharing",
+    element: <DirectoryView />,
+  },
+   {path:"/decrypt/:fileId",
+     element:<DecryptPage />}
 ]);
 
 function App() {

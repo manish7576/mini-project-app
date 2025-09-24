@@ -66,7 +66,8 @@
     "parentDirId": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
     "files": [
       "4d0de036-4433-4f9c-80fd-04fb6e517658",
-      "e9dacd4c-c783-4375-ba22-e58f7fcc2ff5"
+      "e9dacd4c-c783-4375-ba22-e58f7fcc2ff5",
+      "93a9a9a5-cca9-4d2d-b7f3-405948ed78b9"
     ],
     "directories": [
       "2398bc6a-0e71-4613-8ab9-cec1ac0f5d85"
@@ -77,7 +78,9 @@
     "name": "new toooo",
     "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
     "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7",
-    "files": [],
+    "files": [
+      "034cac0a-d62b-4612-9782-aa3fb9f99568"
+    ],
     "directories": []
   },
   {

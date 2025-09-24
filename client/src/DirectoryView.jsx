@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import DirectoryHeader from "./components/DirectoryHeader";
 import CreateDirectoryModal from "./components/CreateDirectoryModal";
 import RenameModal from "./components/RenameModal";
+import SharingModel from "./components/SharingModel";
 import DirectoryList from "./components/DirectoryList";
 import "./DirectoryView.css";
 // import { FaCog } from "react-icons/fa";
@@ -25,6 +26,8 @@ function DirectoryView() {
   const [newDirname, setNewDirname] = useState("New Folder");
 
   const [showRenameModal, setShowRenameModal] = useState(false);
+ 
+
   const [renameType, setRenameType] = useState(null); // "directory" or "file"
   const [renameId, setRenameId] = useState(null);
   const [renameValue, setRenameValue] = useState("");
@@ -41,6 +44,8 @@ function DirectoryView() {
   const [contextMenuPos, setContextMenuPos] = useState({ x: 0, y: 0 });
   const [userEmail,setuserEmail]=useState(0) 
   const [userName,setuserName]=useState("") 
+   const [showSharingModel, setshowSharingModel] = useState(false);
+  const [linkValue, setlinkValue] = useState("");
   
  const user={
   name:userName,
@@ -365,6 +370,29 @@ function DirectoryView() {
     navigate("/login");
   }
 
+  /**
+   * Sharing Model
+   */
+   function openShareModal(item) {
+    console.log("sharing begin",item.id);
+    setshowSharingModel(true)
+     handleFileSharing(item.id)
+  }
+
+ async function handleFileSharing(fileId){
+   const response=await fetch(`${BASE_URL}/sharing/${fileId}`)
+   const data = await response.json()
+    console.log(data);
+    const downloadLink=`${data.download_link}?key=${data.key}&iv=${data.iv}`
+//using webcrypto api to autodecrypt
+
+  console.log("message file shared ");
+    setlinkValue(downloadLink)
+     console.log(linkValue);
+
+  }
+
+
   return (
     <div className="directory-view">
       <DirectoryHeader
@@ -398,6 +426,14 @@ function DirectoryView() {
         />
       )}
 
+      {/* sharing Modal */}
+     {showSharingModel && (
+      <SharingModel
+      onClose={() =>setshowSharingModel(false)}
+      linkValue={linkValue}
+      
+      />
+     )}
       {/* If folder is empty */}
       {combinedItems.length === 0 ? (
         <p className="no-data-message">
@@ -418,6 +454,7 @@ function DirectoryView() {
           handleDeleteFile={handleDeleteFile}
           handleDeleteDirectory={handleDeleteDirectory}
           openRenameModal={openRenameModal}
+          openShareModal={openShareModal}
           BASE_URL={BASE_URL}
         />
       )}

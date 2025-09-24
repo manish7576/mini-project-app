@@ -13,6 +13,7 @@ function DirectoryList({
   handleDeleteFile,
   handleDeleteDirectory,
   openRenameModal,
+  openShareModal,
   BASE_URL,
 }) {
   return (
@@ -35,6 +36,7 @@ function DirectoryList({
             handleDeleteFile={handleDeleteFile}
             handleDeleteDirectory={handleDeleteDirectory}
             openRenameModal={openRenameModal}
+            openShareModal={openShareModal}
             BASE_URL={BASE_URL}
           />
         );

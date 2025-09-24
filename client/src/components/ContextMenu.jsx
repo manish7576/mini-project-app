@@ -6,6 +6,7 @@ function ContextMenu({
     handleDeleteFile,
     handleDeleteDirectory,
     openRenameModal,
+    openShareModal,
     BASE_URL,
   }) {
     // Directory context menu
@@ -63,6 +64,13 @@ function ContextMenu({
             </div>
             <div
               className="context-menu-item"
+               onClick={() => openShareModal(item)}
+            >
+              Share
+            </div>
+            <div
+              className="context-menu-item"
+              
               onClick={() => openRenameModal("file", item.id, item.name)}
             >
               Rename

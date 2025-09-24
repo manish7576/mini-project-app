@@ -7,8 +7,10 @@ client/public/
 express/node_modules/
 express/storage/
 express/bruteforce.js
-express/usersDB.json
-package.json
+express/encryptFiles
+
+/package.json
+/webcrypto api to decript automatically.png
 
 
 # Logs
