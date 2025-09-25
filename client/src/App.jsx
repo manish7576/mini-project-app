@@ -4,30 +4,30 @@ import Register from "./Register";
 import "./App.css";
 import Login from "./Login";
 import DecryptPage from "./components/DecryptPage";
-
+ const url = "http://localhost:4000"; 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <DirectoryView />,
+    element: <DirectoryView BASE_URL={url} />,
   },
   {
     path: "/register",
-    element: <Register />,
+    element: <Register  BASE_URL={url} />,
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <Login  BASE_URL={url}/>,
   },
   {
     path: "/directory/:dirId",
-    element: <DirectoryView />,
+    element: <DirectoryView  BASE_URL={url}/>,
   },
   {
     path: "/sharing",
-    element: <DirectoryView />,
+    element: <DirectoryView  BASE_URL={url}/>,
   },
    {path:"/decrypt/:fileId",
-     element:<DecryptPage />}
+     element:<DecryptPage BASE_URL={url}/>}
 ]);
 
 function App() {

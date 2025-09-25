@@ -2,6 +2,8 @@ import express from "express";
 import { createWriteStream } from "fs";
 import { rm, writeFile } from "fs/promises";
 import path from "path";
+import encryptFD from '../encryptDB.json' with {type: "json"}
+
 import directoriesData from '../directoriesDB.json' with {type: "json"}
 import filesData from '../filesDB.json' with {type: "json"}
 
@@ -83,16 +85,28 @@ router.delete("/:id", async (req, res, next) => {
   const { id } = req.params;
 
   const fileIndex = filesData.findIndex((file) => file.id === id);
+  
   const fileData = filesData[fileIndex];
   if(fileData.userId!==req.cookies.uid){
-   return res.status(401).json({message:"Unathorized can't delete file"})
+    return res.status(401).json({message:"Unathorized can't delete file"})
   }
   if(fileIndex === -1) {
     return res.status(404).json({message: "File Not Found!"})
   }
+  //if encrypted file then delete 
+  const encryptIndex=encryptFD.findIndex((file)=>file.id===id)
+  const encdata=encryptFD[encryptIndex]
+  console.log("index",encryptIndex);
+ 
 try {
     await rm(`./storage/${id}${fileData.extension}`, { recursive: true });
     filesData.splice(fileIndex, 1);
+    if(encdata){
+      console.log("Encrypted file also removed");
+      await rm(`./encryptFiles/${id}.enc`,{recursive:true})
+    encryptFD.splice(encryptIndex,1)
+    await writeFile("./encryptDB.json", JSON.stringify(encryptFD,null,2));
+    }
     const parentDirData = directoriesData.find(
       (directoryData) => directoryData.id === fileData.parentDirId
     );

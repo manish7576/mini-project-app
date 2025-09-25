@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "./Auth.css";
 
-const Register = () => {
-  const BASE_URL = "http://localhost:4000";
+const Register = ({BASE_URL}) => {
+  
 
   const [formData, setFormData] = useState({
     name: "Manish Kumar",

@@ -9,8 +9,8 @@ import DirectoryList from "./components/DirectoryList";
 import "./DirectoryView.css";
 // import { FaCog } from "react-icons/fa";
 
-function DirectoryView() {
-  const BASE_URL = "http://localhost:4000";
+function DirectoryView({BASE_URL}) {
+  
   const { dirId } = useParams();
   const navigate = useNavigate();
 
@@ -361,7 +361,7 @@ function DirectoryView() {
 
    async function handleLogOut(){
     console.log(user);
-   await fetch("http://localhost:4000/user/logout", {
+   await fetch(`${BASE_URL}/user/logout`, {
     method: "POST",
     credentials: "include", // important for cookies
   });
@@ -379,6 +379,11 @@ function DirectoryView() {
      handleFileSharing(item.id)
   }
 
+    function handleClose() {
+  setshowSharingModel(false);
+  setlinkValue('Generating Link... !Please Wait');
+}
+
  async function handleFileSharing(fileId){
    const response=await fetch(`${BASE_URL}/sharing/${fileId}`)
    const data = await response.json()
@@ -388,9 +393,10 @@ function DirectoryView() {
 
   console.log("message file shared ");
     setlinkValue(downloadLink)
-     console.log(linkValue);
+    //  console.log(linkValue);
 
   }
+
 
 
   return (
@@ -429,7 +435,7 @@ function DirectoryView() {
       {/* sharing Modal */}
      {showSharingModel && (
       <SharingModel
-      onClose={() =>setshowSharingModel(false)}
+      onClose={handleClose}
       linkValue={linkValue}
       
       />

@@ -61,6 +61,8 @@ router.post('/login',async (req,res,next)=>{
   }
   res.cookie("uid",userExist.id,{
     httpOnly:true,
+  
+  //  sameSite:"none",
     maxAge:1000*3600*24  //for 24 hrs
   })
   res.json("Logged In")

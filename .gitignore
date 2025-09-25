@@ -1,9 +1,8 @@
 # Ignore node_modules folder
 client/node_modules/
-client/eslint.config.js
-client/vite.config.js
+
 client/README.md
-client/public/
+
 express/node_modules/
 express/storage/
 express/bruteforce.js

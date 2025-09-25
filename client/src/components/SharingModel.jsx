@@ -3,7 +3,6 @@ import {
   FaCopy,
 } from "react-icons/fa";
 
-
  function SharingModel(
   {
   linkValue,
@@ -11,17 +10,29 @@ import {
   }
 ) {
   const [copied, setCopied] = useState(false);
-
+  // console.log(navigator.clipboard);
   const handleCopy = () => {
-    navigator.clipboard.writeText(linkValue).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Reset after 2s
-    });
+    if(navigator.clipboard){
+      navigator.clipboard.writeText(linkValue).then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000); // Reset after 2s
+      });
+    }
+    else{
+      // Fallback for insecure contexts for ip not loopback address 
+    const textArea = document.createElement("textarea");
+    textArea.value = linkValue;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+    
   };
- 
-
-  useEffect(() => {
-
+useEffect(() => {
     // Listen for "Escape" key to close the modal
     const handleKeyDown = (e) => {
       if (e.key === "Escape") {
@@ -53,7 +64,7 @@ import {
           <input
             type="text"
             className="modal-input"
-            placeholder="No link available"
+            placeholder="Please Wait..."
             value={linkValue}
             readOnly
             style={{ flex: 1, marginRight: "8px" }}

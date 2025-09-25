@@ -7,13 +7,12 @@ import shareRoutes from "./routes/sharingRoute.js";
 import cookieParser from "cookie-parser";
 import checkAuth from "./auth.js";
 
-const app = express();
+const app = express(); 
 app.use(cookieParser())
 app.use(express.json());
 app.use(cors({
   origin: true,           
   credentials: true,      // allow cookies/auth headers
-  allowedHeaders: '*' ,   // allow all headers from client
   exposedHeaders: ['Content-Disposition'] // allow JS to read
 }));
 

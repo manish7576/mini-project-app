@@ -1,0 +1,10 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="57" viewBox="8 5 50 55" role="img" aria-label="Secure lock">
+  <!-- shackle -->
+  <path d="M20 28v-6a12 12 0 0 1 24 0v6" fill="none" stroke="#0bbc00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+  <!-- body -->
+  <rect x="14" y="28" width="36" height="28" rx="4" ry="4" fill="none" stroke="#0bbc00" stroke-width="6" stroke-linejoin="round"></rect>
+  <!-- keyhole -->
+  <circle cx="32" cy="42" r="3" fill="#0b5fff"></circle>
+  <rect x="30.2" y="44" width="3.6" height="5" rx="1" ry="1" fill="#0b5fff"></rect>
+</svg>

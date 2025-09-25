@@ -1,23 +1,114 @@
 [
   {
-    "id": "034cac0a-d62b-4612-9782-aa3fb9f99568",
-    "name": "intext.java",
-    "encryptPath": "./encryptFiles/034cac0a-d62b-4612-9782-aa3fb9f99568.enc",
-    "key": "f219d0558516a03d90968be63b9b244808ce31b437d51de7b7de89b81d8ffa6a",
-    "iv": "f90466a4c88e01e78566f60cb9202045"
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "372e3e0a1af57273b06b9cf186d7a647be0836593daf42c338d746492cab5795",
+    "iv": "2922032b6f2527d3878749973be26492"
   },
   {
-    "id": "034cac0a-d62b-4612-9782-aa3fb9f99568",
-    "name": "intext.java",
-    "encryptPath": "./encryptFiles/034cac0a-d62b-4612-9782-aa3fb9f99568.enc",
-    "key": "ff0aabf6afc0e2e9b38b5fac03b7de7c624785cef394db166bb68d88fa120a9e",
-    "iv": "677f6641b0105ff165f59cf6b664f7ba"
+    "id": "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
+    "name": "Bytebytego_Big_Archive_System_Design_2023.pdf",
+    "encryptPath": "./encryptFiles/28e20557-f83b-4bad-a5a3-c085f0f5e5b9.enc",
+    "key": "7399d6632506c2d4e9e25ead341a2d9fd85e07686d3e911debc13523d28c444b",
+    "iv": "81384539f0a0e8792ee2f055ea9af0e0"
   },
   {
-    "id": "1041bd5c-ef59-457b-9f94-816d9b4fcb4e",
-    "name": "File upload .pdf",
-    "encryptPath": "./encryptFiles/1041bd5c-ef59-457b-9f94-816d9b4fcb4e.enc",
-    "key": "75d8520da71dcb89fe6196ace584696dcae397e0990202b8c8eaf9d6f8a1cdef",
-    "iv": "838d0b930e006eeadbe41a69bcf1b053"
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "501d16201e375a8202a43beb683f32b614cd22bb90d1a48d51a168ac20148fbe",
+    "iv": "c4ff7d7af5f0a66ce5a219ce1fc70ed1"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "aa1b24ac434b5a80bb8ee5ab9fd3787faec1d6a0424f4889bd2f80641efd6b92",
+    "iv": "a65330a861a8a963e60b942791844496"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "c5423e2c1f3b114af72bf4a88f64ff83376b232bec257f53d0df9286526c75a5",
+    "iv": "63d8f8bfd03143a277150dd6dcc96f07"
+  },
+  {
+    "id": "e34c2855-4330-43d7-83e9-7b6d8b3877e0",
+    "name": "vidma_recorder_28042024_194831.mp4",
+    "encryptPath": "./encryptFiles/e34c2855-4330-43d7-83e9-7b6d8b3877e0.enc",
+    "key": "4c01fa560d85f600967c7b75c7eeb08fb704b0a1712a92793206c4cf02793f96",
+    "iv": "9cc5b832b407b808ba0f670290fc193c"
+  },
+  {
+    "id": "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
+    "name": "Bytebytego_Big_Archive_System_Design_2023.pdf",
+    "encryptPath": "./encryptFiles/28e20557-f83b-4bad-a5a3-c085f0f5e5b9.enc",
+    "key": "0f5640685323cb1627b2d854029a8ca5bc399ee27046a7df436806bd7d38c593",
+    "iv": "81586ce23e169e89d113ec09ba278e6b"
+  },
+  {
+    "id": "e34c2855-4330-43d7-83e9-7b6d8b3877e0",
+    "name": "vidma_recorder_28042024_194831.mp4",
+    "encryptPath": "./encryptFiles/e34c2855-4330-43d7-83e9-7b6d8b3877e0.enc",
+    "key": "7da3685b8d675f19dc207574024768f87882aa4fbf646856e29fb463b1a3c6d5",
+    "iv": "96433af54704aadbd4dc2c3280acd6ad"
+  },
+  {
+    "id": "c96bd87f-99f5-4738-943e-d9acce57cb13",
+    "name": "Johnny English Strikes Again (2018) {Hindi-English} 1080p BluRay MSubs [BollyFlix].mp4",
+    "encryptPath": "./encryptFiles/c96bd87f-99f5-4738-943e-d9acce57cb13.enc",
+    "key": "91d3e16bed29ca2fbcf51c8431083da766342a00c63c4ac0df182129bfc03c0b",
+    "iv": "2f9b7758d564721516ccdd9c83a1c658"
+  },
+  {
+    "id": "c96bd87f-99f5-4738-943e-d9acce57cb13",
+    "name": "Johnny English Strikes Again (2018) {Hindi-English} 1080p BluRay MSubs [BollyFlix].mp4",
+    "encryptPath": "./encryptFiles/c96bd87f-99f5-4738-943e-d9acce57cb13.enc",
+    "key": "ab7104706c7f2083bd468ec1aa0e0324814e91920b81e862ce65979fb555c665",
+    "iv": "6acd6578d18f4cb0f26abb41e3a59f58"
+  },
+  {
+    "id": "e34c2855-4330-43d7-83e9-7b6d8b3877e0",
+    "name": "vidma_recorder_28042024_194831.mp4",
+    "encryptPath": "./encryptFiles/e34c2855-4330-43d7-83e9-7b6d8b3877e0.enc",
+    "key": "73b234ed85b62ae4d4d8cb41fe04572400e3a042ab5d37da379881e3a1feef37",
+    "iv": "9b003917a2a3a7243dbf1a6140eb5433"
+  },
+  {
+    "id": "c96bd87f-99f5-4738-943e-d9acce57cb13",
+    "name": "Johnny English Strikes Again (2018) {Hindi-English} 1080p BluRay MSubs [BollyFlix].mp4",
+    "encryptPath": "./encryptFiles/c96bd87f-99f5-4738-943e-d9acce57cb13.enc",
+    "key": "459c67c652b03124bddcf419593d795fce4fd900331a24a923b78743594a9da2",
+    "iv": "601b0390f897c85b5da0062357f0516f"
+  },
+  {
+    "id": "c96bd87f-99f5-4738-943e-d9acce57cb13",
+    "name": "Johnny English Strikes Again (2018) {Hindi-English} 1080p BluRay MSubs [BollyFlix].mp4",
+    "encryptPath": "./encryptFiles/c96bd87f-99f5-4738-943e-d9acce57cb13.enc",
+    "key": "74716cc515295e04de071c8c7ee8ee03ec23a7e145bcc132c12f17fe3ad9af9d",
+    "iv": "4227fbb83db94faa2fe7b5c4047de1a4"
+  },
+  {
+    "id": "c96bd87f-99f5-4738-943e-d9acce57cb13",
+    "name": "Johnny English Strikes Again (2018) {Hindi-English} 1080p BluRay MSubs [BollyFlix].mp4",
+    "encryptPath": "./encryptFiles/c96bd87f-99f5-4738-943e-d9acce57cb13.enc",
+    "key": "841c1c0f124ca70e23a3f0f3b2164cc52d637da666dfe796cdf8cc772a9d3d29",
+    "iv": "27f5961eeed785de6098c8bb3c6f1d88"
+  },
+  {
+    "id": "e34c2855-4330-43d7-83e9-7b6d8b3877e0",
+    "name": "vidma_recorder_28042024_194831.mp4",
+    "encryptPath": "./encryptFiles/e34c2855-4330-43d7-83e9-7b6d8b3877e0.enc",
+    "key": "ef066a6b306598c18a2a3a0acb7dfbf65271b43bbcbe3fe082611066102d6755",
+    "iv": "17988964d284fa290d251767e31a7158"
+  },
+  {
+    "id": "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
+    "name": "Bytebytego_Big_Archive_System_Design_2023.pdf",
+    "encryptPath": "./encryptFiles/28e20557-f83b-4bad-a5a3-c085f0f5e5b9.enc",
+    "key": "d8c756b68c71cdf68ac08983f92eea1de40d7b90aaf9971c734c8582a0d607c7",
+    "iv": "14f0afff155c6b9e8dbc8f55567a85b5"
   }
 ]
