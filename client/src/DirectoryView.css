@@ -26,6 +26,7 @@
 }
 
 .header-links {
+  padding-top: 6px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -60,6 +61,16 @@
 }
 .secondary-button:hover {
   background-color: #999;
+}
+.back {
+  border:none;
+  padding:10px ;
+  border-radius:7pc;
+}
+.back:hover {
+ background:#cccccc;
+ cursor:pointer;
+  
 }
 
 /* Icon buttons */

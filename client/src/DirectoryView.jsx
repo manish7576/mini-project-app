@@ -24,6 +24,8 @@ function DirectoryView({BASE_URL}) {
   // Modal states
   const [showCreateDirModal, setShowCreateDirModal] = useState(false);
   const [newDirname, setNewDirname] = useState("New Folder");
+  const [winBack, setwinBack] = useState(false);
+
 
   const [showRenameModal, setShowRenameModal] = useState(false);
  
@@ -65,12 +67,14 @@ function DirectoryView({BASE_URL}) {
         navigate('/login')
         return;
     }
-
+   
     // Set directory name
     if (data.name) {
       setDirectoryName(dirId ? data.name : "My Drive");
+      dirId?setwinBack(true):setwinBack(false)
     } else {
       setDirectoryName("My Drive");
+     
     }
    console.log(data.email);
     // Reverse the directories and files so new items are on top
@@ -403,6 +407,7 @@ function DirectoryView({BASE_URL}) {
     <div className="directory-view">
       <DirectoryHeader
         directoryName={directoryName}
+        windowback={winBack}
         onCreateFolderClick={() => setShowCreateDirModal(true)}
         onUploadFilesClick={() => fileInputRef.current.click()}
         fileInputRef={fileInputRef}

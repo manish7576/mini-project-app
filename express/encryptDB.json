@@ -110,5 +110,12 @@
     "encryptPath": "./encryptFiles/28e20557-f83b-4bad-a5a3-c085f0f5e5b9.enc",
     "key": "d8c756b68c71cdf68ac08983f92eea1de40d7b90aaf9971c734c8582a0d607c7",
     "iv": "14f0afff155c6b9e8dbc8f55567a85b5"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "08e1aec74b59a86e62da4a21ac42196c5fb7bf528456582ef6b8b692310a6865",
+    "iv": "a529e67e887b888e5555881c873fe9f7"
   }
 ]

@@ -5,6 +5,7 @@ import  { useState, useRef, useEffect } from "react";
 
 function DirectoryHeader({
   directoryName,
+  windowback,
   onCreateFolderClick,
   onUploadFilesClick,
   fileInputRef,
@@ -27,11 +28,14 @@ function DirectoryHeader({
   }, []);
 
   // const initial = user?.name ? user.name.charAt(0).toUpperCase() : "U";
-
+   console.log(windowback);
   //  console.log(initial);
   return (
     <header className="directory-header">
-      <h1>{directoryName}</h1>
+      <h1 style={{display:"flex",gap:'5px'}}> {windowback && (<button title="Click to go Backward" className="back" 
+       onClick={()=>{
+        window.history.back()
+      }}>⇐</button>) } {directoryName}</h1>
       <div className="header-links">
         {/* Create Folder (icon button) */}
         <button

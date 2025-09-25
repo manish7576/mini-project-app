@@ -72,53 +72,8 @@ const DecryptPage = ( {BASE_URL}) => {
            }
          
 
-      // Decrypt function
+   
 
-// 
-
-// Convert ArrayBuffer → WordArray (crypto-js format)
-// function arrayBufferToWordArray(ab) {
-//   const u8 = new Uint8Array(ab);
-//   const words = [];
-//   for (let i = 0; i < u8.length; i++) {
-//     words[(i / 4) | 0] |= u8[i] << (24 - 8 * (i % 4));
-//   }
-//   return CryptoJS.lib.WordArray.create(words, u8.length);
-// }
-
-// Convert WordArray → Uint8Array
-// function wordArrayToUint8Array(wordArray) {
-//   const len = wordArray.sigBytes;
-//   const u8_array = new Uint8Array(len);
-//   let offset = 0;
-//   for (let i = 0; i < wordArray.words.length; i++) {
-//     const word = wordArray.words[i];
-//     for (let j = 3; j >= 0; j--) {
-//       if (offset < len) {
-//         u8_array[offset++] = (word >> (j * 8)) & 0xff;
-//       }
-//     }
-//   }
-//   return u8_array;
-// }
-
-
-// function decryptAES(encryptedBuffer, keyBuffer, ivBuffer) {
-  // const encryptedWA = arrayBufferToWordArray(encryptedBuffer);
-  // const keyWA = arrayBufferToWordArray(keyBuffer);
-  // const ivWA = arrayBufferToWordArray(ivBuffer);
-
-  // const decryptedWA = CryptoJS.AES.decrypt(
-  //   { ciphertext: encryptedWA },
-  //   keyWA,
-  //   { iv: ivWA, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 }
-  // );
-
-  // return wordArrayToUint8Array(decryptedWA); // Uint8Array (decrypted buffer)
-// }
-
-// Usage
-// const decryptedBuffer = decryptAES(encryptedBuffer, keyBuffer, ivBuffer);
 
         // 5. Auto-download decrypted file
         const blob = new Blob([decryptedBuffer]);

@@ -55,7 +55,8 @@
     "files": [],
     "directories": [
       "2b7c636e-692a-4ab5-b6a1-5657f69a15f3",
-      "c1dc4253-781e-4074-91f6-4111ecb53171"
+      "c1dc4253-781e-4074-91f6-4111ecb53171",
+      "2333f928-ea80-45cd-88a3-29fe69af7db9"
     ]
   },
   {
@@ -83,6 +84,24 @@
     "name": "root-scienceextra904@gmail.com",
     "userId": "bf2c6851-9843-4b4c-b8e5-a4cb490b10d4",
     "parentDirId": null,
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "2333f928-ea80-45cd-88a3-29fe69af7db9",
+    "name": "my second drive",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
+    "files": [],
+    "directories": [
+      "fca6b3ad-38b9-4111-a337-9e7519be8ec3"
+    ]
+  },
+  {
+    "id": "fca6b3ad-38b9-4111-a337-9e7519be8ec3",
+    "name": "Back to the last",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "2333f928-ea80-45cd-88a3-29fe69af7db9",
     "files": [],
     "directories": []
   }
