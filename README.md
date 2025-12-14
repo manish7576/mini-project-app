@@ -43,20 +43,20 @@ It includes authentication (login/register), protected routes, and cookie-based 
 - **Authentication**: Cookie-based sessions
 
 ---
-🚧 Limitations
+## 🚧 Limitations
 
-Uses JSON file instead of a production database
-Not optimized for large file storage
-Encryption is basic (learning‑oriented)
+- Uses JSON file instead of a production database
+- Not optimized for large file storage
+- Encryption is basic (learning‑oriented)
 ---
 
 ## 🛠️ License
-This project is created for educational purposes only.
+- This project is created for educational purposes only.
 ---
 
-👨‍💻 Author
-Manish Kumar Maurya
-GitHub: https://github.com/manish7576
+## 👨‍💻 Author
+- Manish Kumar Maurya
+  GitHub: https://github.com/manish7576
 ---
 ## 📦 Installation
 1. Clone the repository:
