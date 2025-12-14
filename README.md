@@ -30,6 +30,8 @@ It includes authentication (login/register), protected routes, and cookie-based 
 ## 🚀 Features
 - User Registration & Login
 - Session handling with cookies
+- End‑to‑End Encryption (E2EE)
+- Algorithm uses for encryption  AES-CBC-256
 - Logout functionality
 - Secure backend API with Express
 - Frontend built using React + Vite
