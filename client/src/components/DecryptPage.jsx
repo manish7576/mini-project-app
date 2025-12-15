@@ -70,11 +70,6 @@ const DecryptPage = ( {BASE_URL}) => {
                   .replace(/"/g, ""); // remove quotes
                   console.log("filename:",fileName);
            }
-         
-
-   
-
-
         // 5. Auto-download decrypted file
         const blob = new Blob([decryptedBuffer]);
         const link = document.createElement("a");

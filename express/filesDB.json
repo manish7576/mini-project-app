@@ -14,27 +14,6 @@
     "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7"
   },
   {
-    "id": "1be48988-4da6-4274-96e1-365756518376",
-    "extension": ".pdf",
-    "name": "Bytebytego Big Archive System Design 2023.pdf",
-    "userId": "88867795-3653-42b1-8698-1229b989a734",
-    "parentDirId": "41d88d91-2a90-4907-b724-dbe6a9df0354"
-  },
-  {
-    "id": "f096effd-2680-464a-bf23-ea3c261b9014",
-    "extension": ".java",
-    "name": "intexttt.java",
-    "userId": "88867795-3653-42b1-8698-1229b989a734",
-    "parentDirId": "5f1b7089-5b70-494e-a206-b95cd23b7ab3"
-  },
-  {
-    "id": "15a692ad-2c43-414a-9b8a-669752b65dde",
-    "extension": ".png",
-    "name": "tick.jpgi",
-    "userId": "85aba490-2746-4c01-8386-d01fee03ddf7",
-    "parentDirId": "61b14f0f-3a71-4f96-ad41-630bf744c009"
-  },
-  {
     "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
     "extension": ".jpg",
     "name": "FFXIV Dawntrail key art v2.jpg",
@@ -45,6 +24,13 @@
     "id": "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
     "extension": ".pdf",
     "name": "Bytebytego_Big_Archive_System_Design_2023.pdf",
+    "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
+    "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7"
+  },
+  {
+    "id": "b6cf54c6-e9ae-4cc9-b41e-9b9672bee745",
+    "extension": ".mp4",
+    "name": "04- End screen.mp4",
     "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
     "parentDirId": "5e796132-5c71-4d89-8890-acf675c8d0e7"
   }

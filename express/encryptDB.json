@@ -117,5 +117,54 @@
     "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
     "key": "08e1aec74b59a86e62da4a21ac42196c5fb7bf528456582ef6b8b692310a6865",
     "iv": "a529e67e887b888e5555881c873fe9f7"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "4fb7a158efb353dc01cd2c2f7c55534d6173af954a22f2fc25de6dd13f578dbd",
+    "iv": "74cd878283aaa12f10ceffbce4f76a96"
+  },
+  {
+    "id": "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
+    "name": "Bytebytego_Big_Archive_System_Design_2023.pdf",
+    "encryptPath": "./encryptFiles/28e20557-f83b-4bad-a5a3-c085f0f5e5b9.enc",
+    "key": "b229b3d1f1f0b773dd8dac03e59ef01590680ec1ee6c93cf190b4495f7a1cf80",
+    "iv": "77661363bb3d2fcef1bf9b777e2a9855"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "b511c3625c07c92c84885fe8fe5407b06b4ba2c5d0748635a720ea97a881e78d",
+    "iv": "76e99b9ebd2489b73d993247a5096e74"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "d21f2975bbcf502c50b039b4f868ab2d08d37a2c7cd700de2b647b683809b386",
+    "iv": "918bbd0dd6503aa3d701c2cd12477690"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "feb31ca55ea743427c020adc9c2ec05f689205f3cfc938acad4aa46e3753201e",
+    "iv": "5b5b2b2ea664cc645abd4adcaf686332"
+  },
+  {
+    "id": "b6cf54c6-e9ae-4cc9-b41e-9b9672bee745",
+    "name": "04- End screen.mp4",
+    "encryptPath": "./encryptFiles/b6cf54c6-e9ae-4cc9-b41e-9b9672bee745.enc",
+    "key": "323efdd0b46b24d47f5ed8b64517df644709cd0b364a95ddfbcf38612eb3f781",
+    "iv": "7492258c5dce51c7b8e678d2e16398c6"
+  },
+  {
+    "id": "d7ad833f-7c54-45ce-aecd-a61745edde59",
+    "name": "FFXIV Dawntrail key art v2.jpg",
+    "encryptPath": "./encryptFiles/d7ad833f-7c54-45ce-aecd-a61745edde59.enc",
+    "key": "127617d3ecaf7ca57f0ae85dc8dbad30bb632b91ba48bd936388866903a8f277",
+    "iv": "b03d8ac0f2acc83aaf3fe0992f92687e"
   }
 ]

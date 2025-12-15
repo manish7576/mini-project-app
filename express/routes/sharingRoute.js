@@ -1,5 +1,6 @@
 
 import express from "express"
+import https from  "https"
 import crypto from 'node:crypto'
 import {createWriteStream,createReadStream} from "fs"
 import { rm, writeFile } from "fs/promises";
@@ -7,6 +8,8 @@ import path from 'path';
 import filesData from '../filesDB.json' with {type: "json"}
 import encryptFD from '../encryptDB.json' with {type: "json"}
 import { fstat } from "node:fs";
+
+import  {cloudFlareUrl}  from "../app.js";
               
 const router=express.Router()
 
@@ -42,7 +45,7 @@ const router=express.Router()
 
    console.log("Sever shared ",fileData);
  const share_obj={
-    download_link: `http://localhost:5173/decrypt/${fileId}`,
+    download_link: `${cloudFlareUrl}/decrypt/${fileId}`,
       key: key.toString("hex"),
       iv: iv.toString("hex")
    }

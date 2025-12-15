@@ -9,44 +9,14 @@
       "4312614a-c5c8-4ed4-ab2d-a069616fb72b",
       "61183211-eedc-4af3-82f2-d52a2a942669",
       "d7ad833f-7c54-45ce-aecd-a61745edde59",
-      "28e20557-f83b-4bad-a5a3-c085f0f5e5b9"
+      "28e20557-f83b-4bad-a5a3-c085f0f5e5b9",
+      "b6cf54c6-e9ae-4cc9-b41e-9b9672bee745"
     ],
     "directories": [
       "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c"
     ]
   },
-  {
-    "id": "5f1b7089-5b70-494e-a206-b95cd23b7ab3",
-    "name": "root-rajmaurya66115@gmail.com",
-    "userId": "88867795-3653-42b1-8698-1229b989a734",
-    "parentDirId": null,
-    "files": [
-      "f096effd-2680-464a-bf23-ea3c261b9014"
-    ],
-    "directories": [
-      "41d88d91-2a90-4907-b724-dbe6a9df0354"
-    ]
-  },
-  {
-    "id": "41d88d91-2a90-4907-b724-dbe6a9df0354",
-    "name": "cdcd",
-    "userId": "88867795-3653-42b1-8698-1229b989a734",
-    "parentDirId": "5f1b7089-5b70-494e-a206-b95cd23b7ab3",
-    "files": [
-      "1be48988-4da6-4274-96e1-365756518376"
-    ],
-    "directories": [
-      "481079f5-a216-40d4-b896-5c3f1844720e"
-    ]
-  },
-  {
-    "id": "481079f5-a216-40d4-b896-5c3f1844720e",
-    "name": "bitbt fo",
-    "userId": "88867795-3653-42b1-8698-1229b989a734",
-    "parentDirId": "41d88d91-2a90-4907-b724-dbe6a9df0354",
-    "files": [],
-    "directories": []
-  },
+  
   {
     "id": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
     "name": "edge ",
@@ -56,36 +26,9 @@
     "directories": [
       "2b7c636e-692a-4ab5-b6a1-5657f69a15f3",
       "c1dc4253-781e-4074-91f6-4111ecb53171",
-      "2333f928-ea80-45cd-88a3-29fe69af7db9"
+      "2333f928-ea80-45cd-88a3-29fe69af7db9",
+      "31a3c848-bcaf-4604-a43c-2b880b9a36a8"
     ]
-  },
-  {
-    "id": "61b14f0f-3a71-4f96-ad41-630bf744c009",
-    "name": "root-bhyy@gmail.com",
-    "userId": "85aba490-2746-4c01-8386-d01fee03ddf7",
-    "parentDirId": null,
-    "files": [
-      "15a692ad-2c43-414a-9b8a-669752b65dde"
-    ],
-    "directories": [
-      "cd191505-bcbf-4258-b3fb-0359efedd449"
-    ]
-  },
-  {
-    "id": "cd191505-bcbf-4258-b3fb-0359efedd449",
-    "name": "The worst things ever",
-    "userId": "85aba490-2746-4c01-8386-d01fee03ddf7",
-    "parentDirId": "61b14f0f-3a71-4f96-ad41-630bf744c009",
-    "files": [],
-    "directories": []
-  },
-  {
-    "id": "384616c1-b5b9-40b7-90ec-4e148b9cf0ba",
-    "name": "root-scienceextra904@gmail.com",
-    "userId": "bf2c6851-9843-4b4c-b8e5-a4cb490b10d4",
-    "parentDirId": null,
-    "files": [],
-    "directories": []
   },
   {
     "id": "2333f928-ea80-45cd-88a3-29fe69af7db9",
@@ -93,16 +36,15 @@
     "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
     "parentDirId": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
     "files": [],
-    "directories": [
-      "fca6b3ad-38b9-4111-a337-9e7519be8ec3"
-    ]
+    "directories": []
   },
   {
-    "id": "fca6b3ad-38b9-4111-a337-9e7519be8ec3",
-    "name": "Back to the last",
+    "id": "31a3c848-bcaf-4604-a43c-2b880b9a36a8",
+    "name": "New Folder",
     "userId": "340fd5a9-cbc8-42d4-a0ac-52036e42b6de",
-    "parentDirId": "2333f928-ea80-45cd-88a3-29fe69af7db9",
+    "parentDirId": "cf39c9a4-e895-4b4b-8154-59fd29e9cf2c",
     "files": [],
     "directories": []
   }
+ 
 ]

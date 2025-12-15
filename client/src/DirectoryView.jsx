@@ -15,7 +15,7 @@ function DirectoryView({BASE_URL}) {
   const navigate = useNavigate();
 
   // Displayed directory name
-  const [directoryName, setDirectoryName] = useState("My Drive");
+  const [directoryName, setDirectoryName] = useState("My Secure Drive");
 
   // Lists of items
   const [directoriesList, setDirectoriesList] = useState([]);
@@ -70,10 +70,10 @@ function DirectoryView({BASE_URL}) {
    
     // Set directory name
     if (data.name) {
-      setDirectoryName(dirId ? data.name : "My Drive");
+      setDirectoryName(dirId ? data.name : "My Secure Drive");
       dirId?setwinBack(true):setwinBack(false)
     } else {
-      setDirectoryName("My Drive");
+      setDirectoryName("My Secure Drive");
      
     }
    console.log(data.email);
@@ -87,7 +87,6 @@ function DirectoryView({BASE_URL}) {
      
 
   }
-
   useEffect(() => {
     getDirectoryItems();
     // Reset context menu

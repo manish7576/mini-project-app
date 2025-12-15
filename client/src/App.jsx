@@ -4,7 +4,7 @@ import Register from "./Register";
 import "./App.css";
 import Login from "./Login";
 import DecryptPage from "./components/DecryptPage";
- const url = "http://localhost:4000"; 
+ const url = "/api"; 
 const router = createBrowserRouter([
   {
     path: "/",
